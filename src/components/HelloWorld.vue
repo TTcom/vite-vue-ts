@@ -1,7 +1,7 @@
 <template>
   <h1>
     {{ msg }}
-    <a href="">123132</a>
+    <a href="">123132asa</a>
   </h1>
   <div>
     <input type="text" ref="ainput" v-model="state.count" />
