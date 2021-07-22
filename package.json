@@ -9,6 +9,9 @@
     "log": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*.{vue,js,ts}": "eslint --fix"
+  },
   "dependencies": {
     "ant-design-vue": "^2.1.6",
     "axios": "^0.21.1",

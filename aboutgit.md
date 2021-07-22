@@ -9,7 +9,7 @@ npm i @commitlint/config-conventional @commitlint/cli -D
 npx husky add .husky/commit-msg "npx --no-install commitlint --edit $1"
 # 集成commit命令
 "commit": "git add . && git-cz",
-# 集成 conventional-changelog-cli
+# 集成提交日志 conventional-changelog-cli
 npm i conventional-changelog-cli -D
 # 根目录下新建 CHANGELOG.md
 # 配置package.json
