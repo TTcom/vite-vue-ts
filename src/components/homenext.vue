@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        home
+        wao
         <div v-for="(item,i) in testarr" :key="i" :ref="setItemRef">{{item}}</div>
         <a-list item-layout="horizontal" :data-source="data">
             <template #renderItem="{ item }">
