@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+// import legacy from '@vitejs/plugin-legacy' //兼容低版本浏览器插件
 import styleImport from 'vite-plugin-style-import'
 // 如果编辑器提示 path 模块找不到，则可以安装一下 @types/node -> npm i @types/node -D
 import { resolve } from 'path'
