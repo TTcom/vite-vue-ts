@@ -19,9 +19,10 @@
     </a-list>
   </div>
 </template>
-<script setup lang="ts">
+<script lang="ts" setup>
 import { ref, reactive, onUpdated, onMounted } from "vue";
 import API from "@/api/apitest";
+
 interface DataItem {
   title: string;
   picUrl: string;
@@ -37,8 +38,7 @@ onMounted(() => {
   console.log("itemRefs", itemRefs[2]);
 });
 
-let testarr = [1, 2, 3, 5, 6];
-
+let testarr = [1, 2, 3, 5];
 const data = ref<DataItem[]>([]);
 
 const url = "/weapi/personalized/newsong";
