@@ -64,6 +64,11 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/standalone@^7.15.7":
+  version "7.15.8"
+  resolved "https://registry.npmmirror.com/@babel/standalone/download/@babel/standalone-7.15.8.tgz#3cb40b81892a702968a3e0bba2bdd1115f034876"
+  integrity sha1-PLQLgYkqcCloo+C7or3REV8DSHY=
+
 "@babel/types@^7.12.0", "@babel/types@^7.13.0":
   version "7.14.8"
   resolved "https://registry.nlark.com/@babel/types/download/@babel/types-7.14.8.tgz"
@@ -438,6 +443,17 @@
   dependencies:
     "@typescript-eslint/types" "4.29.0"
     eslint-visitor-keys "^2.0.0"
+
+"@vitejs/plugin-legacy@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.npmmirror.com/@vitejs/plugin-legacy/download/@vitejs/plugin-legacy-1.6.2.tgz#638bfe74715bdba33a68b3de555f615e1b246cdb"
+  integrity sha1-Y4v+dHFb26M6aLPeVV9hXhskbNs=
+  dependencies:
+    "@babel/standalone" "^7.15.7"
+    core-js "^3.18.1"
+    magic-string "^0.25.7"
+    regenerator-runtime "^0.13.9"
+    systemjs "^6.10.3"
 
 "@vitejs/plugin-vue@^1.2.5":
   version "1.2.5"
@@ -1198,6 +1214,11 @@ core-js@^3.12.1:
   version "3.15.2"
   resolved "https://registry.nlark.com/core-js/download/core-js-3.15.2.tgz?cache=0&sync_timestamp=1624966012065&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcore-js%2Fdownload%2Fcore-js-3.15.2.tgz"
   integrity sha1-dAZg0v9V7zTOZk1+JFURnFvdPWE=
+
+core-js@^3.18.1:
+  version "3.18.3"
+  resolved "https://registry.npmmirror.com/core-js/download/core-js-3.18.3.tgz#86a0bba2d8ec3df860fefcc07a8d119779f01509"
+  integrity sha1-hqC7otjsPfhg/vzAeo0Rl3nwFQk=
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -3257,6 +3278,11 @@ regenerator-runtime@^0.13.4:
   resolved "https://registry.nlark.com/regenerator-runtime/download/regenerator-runtime-0.13.7.tgz"
   integrity sha1-ysLazIoepnX+qrrriugziYrkb1U=
 
+regenerator-runtime@^0.13.9:
+  version "0.13.9"
+  resolved "https://registry.nlark.com/regenerator-runtime/download/regenerator-runtime-0.13.9.tgz?cache=0&sync_timestamp=1626993001371&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
+  integrity sha1-iSV0Kpj/2QgUmI11Zq0wyjsmO1I=
+
 regexpp@^3.1.0:
   version "3.2.0"
   resolved "https://registry.nlark.com/regexpp/download/regexpp-3.2.0.tgz?cache=0&sync_timestamp=1623668872577&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregexpp%2Fdownload%2Fregexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
@@ -3681,6 +3707,11 @@ supports-color@^7.1.0:
   integrity sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
   dependencies:
     has-flag "^4.0.0"
+
+systemjs@^6.10.3:
+  version "6.10.3"
+  resolved "https://registry.nlark.com/systemjs/download/systemjs-6.10.3.tgz?cache=0&sync_timestamp=1629217120054&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsystemjs%2Fdownload%2Fsystemjs-6.10.3.tgz#7e783fccb58232f1d9eb05c7e1a661268945cade"
+  integrity sha1-fng/zLWCMvHZ6wXH4aZhJolFyt4=
 
 table@^6.0.9:
   version "6.7.1"

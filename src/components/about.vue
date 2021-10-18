@@ -1,17 +1,11 @@
 <template>
-  <div class="about">
-        about
-  </div>
+  <div class="about">about</div>
 </template>
 
 <script setup lang="ts">
+import { reactive } from "vue";
 
-import { reactive } from 'vue'
-
-const state = reactive({ count: 0 })
-
+const state = reactive({ count: 0 });
 </script>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>

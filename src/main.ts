@@ -4,6 +4,6 @@ import App from "./App.vue";
 import router from "./router/index";
 import { setupAntd } from "./common/antcomponents";
 
-const app = createApp(App);
+const app: any = createApp(App);
 setupAntd(app);
 app.use(router).mount("#app");

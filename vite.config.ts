@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import eslintPlugin from 'vite-plugin-eslint';
-// import legacy from '@vitejs/plugin-legacy' //兼容低版本浏览器插件
+import legacy from '@vitejs/plugin-legacy' //兼容低版本浏览器插件
 import styleImport from 'vite-plugin-style-import'
 // 如果编辑器提示 path 模块找不到，则可以安装一下 @types/node -> npm i @types/node -D
 import { resolve } from 'path'
@@ -14,6 +14,10 @@ export default defineConfig({
     }
   },
   plugins: [
+    legacy({
+      targets: ['> 1%, last 1 version, ie >= 11'],
+      additionalLegacyPolyfills: ['regenerator-runtime/runtime'], // 面向IE11时需要此插件
+    }),
     vue(),
     styleImport({
       libs: [

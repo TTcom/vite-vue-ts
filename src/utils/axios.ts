@@ -5,7 +5,7 @@ import { AxiosRequestConfig, AxiosInstance, AxiosResponse } from "axios";
 const axiosInstance: AxiosInstance = axios.create();
 
 axiosInstance.defaults.withCredentials = true;
-const pending: Array<any> = []; // 声明一个数组用于存储每个ajax请求的取消函数和ajax标识
+const pending: any = []; // 声明一个数组用于存储每个ajax请求的取消函数和ajax标识
 // let CancelToken = axios.CancelToken
 const removePending = (config) => {
   if (pending.length > 0) {
